@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Cart } from 'src/app/shared/models/Cart';
-import { CartItem } from 'src/app/shared/models/CartItem';
-import { Food } from 'src/app/shared/models/Food';
+import { Cart } from '../../shared/models/cart';
+import { Perfume } from '../../shared/models/perfume';
+import { CartItem } from '../../shared/models/cartItem';
+
 
 @Injectable({
   providedIn: 'root'
@@ -9,22 +10,22 @@ import { Food } from 'src/app/shared/models/Food';
 export class CartService {
   private cart:Cart = new Cart();
   
-  addToCart(food: Food):void{
-    let cartItem = this.cart.items.find(item => item.food.id === food.id);
+  addToCart(perfume: Perfume):void{
+    let cartItem = this.cart.items.find(item => item.perfume.id === perfume.id);
     if(cartItem){
-      this.changeQuantity(food.id, cartItem.quantity + 1);
+      this.changeQuantity(perfume.id, cartItem.quantity + 1);
       return;
     }
-    this.cart.items.push(new CartItem(food));
+    this.cart.items.push(new CartItem(perfume));
   }
 
-  removeFromCart(foodId:number): void{
+  removeFromCart(perfumeId:number): void{
     this.cart.items = 
-    this.cart.items.filter(item => item.food.id != foodId);
+    this.cart.items.filter(item => item.perfume.id != perfumeId);
   }
 
-  changeQuantity(foodId:number, quantity:number){
-    let cartItem = this.cart.items.find(item => item.food.id === foodId);
+  changeQuantity(perfumeId:number, quantity:number){
+    let cartItem = this.cart.items.find(item => item.perfume.id === perfumeId);
     if(!cartItem) return;
     cartItem.quantity = quantity;
   }

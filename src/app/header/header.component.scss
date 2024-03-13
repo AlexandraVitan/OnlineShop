@@ -1,35 +1,35 @@
-header{
-    background: white;
-    padding: 0;
-    border-bottom: 1px solid #e72929;
-}
+header {
+  background: white;
+  padding: 0;
+  border-bottom: 1px solid #41038c;
 
-a{
-    color:#af1313
-}
+  a {
+    color: #41038c;
 
-a:hover{
-    background: #e72929;
-    color: white;
-}
+    &:hover {
+      background: #b091ea;
+      color: white;
+    }
+  }
 
-.container{
+  .container {
     margin: 0 auto;
     display: flex;
-    justify-content:space-between;
-}
+    justify-content: space-between;
 
-a.logo{
-    font-weight: bold;
-    padding: 1em;
-}
+    .logo {
+      font-weight: bold;
+      padding: 1em;
+    }
 
-nav ul{
-    list-style-type: none;
-    margin: 0;
-}
+    nav ul {
+      list-style-type: none;
+      margin: 0;
 
-nav ul li a {
-    padding: 1em;
-    display: inline-block;
+      li a {
+        padding: 1em;
+        display: inline-block;
+      }
+    }
+  }
 }

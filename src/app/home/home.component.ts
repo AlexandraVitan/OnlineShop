@@ -9,17 +9,17 @@ import { PerfumeService } from '../services/perfume/perfume.service';
 })
 export class HomeComponent implements OnInit {
 
-  foods: Perfume[] = [];
-  constructor(private foodService: PerfumeService, private route: ActivatedRoute) { }
+  perfumes: Perfume[] = [];
+  constructor(private perfumeService: PerfumeService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
       if (params['searchTerm'])
-        this.foods = this.foodService.getAllPerfumesBySearchTerm(params['searchTerm']);
+        this.perfumes = this.perfumeService.getAllPerfumesBySearchTerm(params['searchTerm']);
       else if (params['tag'])
-        this.foods = this.foodService.getAllPerfumesByTag(params['tag']);
+        this.perfumes = this.perfumeService.getAllPerfumesByTag(params['tag']);
       else
-        this.foods = this.foodService.getAll();
+        this.perfumes = this.perfumeService.getAll();
     })
   }
 

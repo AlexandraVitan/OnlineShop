@@ -15,7 +15,7 @@
       <span class="favorite {{ perfume.favorite ? '' : 'not' }}"> ❤ </span>
     </div>
     <div class="rating">
-      <star-rating
+      <!-- <star-rating
         [value]="perfume.stars"
         [totalstars]="5"
         checkedcolor="red"
@@ -23,27 +23,18 @@
         size="30px"
         [readonly]="true"
       >
-      </star-rating>
-    </div>
-
-    <div class="origins">
-      <span *ngFor="let origin of perfume.origins">
-        {{ origin }}
-      </span>
+      </star-rating> -->
     </div>
 
     <div class="tags">
-      <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
-    </div>
-
-    <div class="cook-time">
-      <span>
-        Time to cook about <strong>{{ food.cookTime }}</strong> minutes
-      </span>
+      <app-tags
+        [perfumePageTags]="perfume.tags"
+        justifyContent="start"
+      ></app-tags>
     </div>
 
     <div class="price">
-      <span>{{ food.price | currency }}</span>
+      <span>{{ perfume.price | currency }}</span>
     </div>
 
     <button (click)="addToCart()">Add To Cart</button>
