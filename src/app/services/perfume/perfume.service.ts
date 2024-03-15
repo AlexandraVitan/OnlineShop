@@ -42,6 +42,8 @@ export class PerfumeService {
         id: 1,
         name: 'La vie est belle',
         price: 10,
+        description:
+          'Subtile dance of flowers which open the way to deep layers of vanilla and jasmine',
         favorite: false,
         stars: 4.5,
         imageUrl: '/assets/images/perfumes/perfume-1.jpg',
@@ -49,8 +51,10 @@ export class PerfumeService {
       },
       {
         id: 2,
-        name: 'Sss',
+        name: 'Pure XS',
         price: 20,
+        description:
+          'Cotton and light as they are soft and moist, highlighted with iris and ambrette seeds.',
         favorite: true,
         stars: 4.7,
         imageUrl: '/assets/images/perfumes/perfume-2.jpg',
@@ -60,6 +64,8 @@ export class PerfumeService {
         id: 3,
         name: 'Miss Dior',
         price: 5,
+        description:
+          'The flavour of the fruit cedes centre stage, and white cedar underscores the woody strength of the tree and its bark.',
         favorite: false,
         stars: 3.5,
         imageUrl: '/assets/images/perfumes/perfume-3.jpg',
@@ -69,6 +75,8 @@ export class PerfumeService {
         id: 4,
         name: 'Sahara',
         price: 2,
+        description:
+          'Within the bottle, absolute and extract of damascena and centifolia roses, contribute their full intensity. ',
         favorite: true,
         stars: 3.3,
         imageUrl: '/assets/images/perfumes/perfume-4.jpg',
@@ -78,6 +86,8 @@ export class PerfumeService {
         id: 5,
         name: 'Schalimar',
         price: 11,
+        description:
+          'A tuberose whose scent brings to mind the twilight hour, when the white flowers stand out in the darkness. Notes of jasmine and orange blossom.',
         favorite: false,
         stars: 3.0,
         imageUrl: '/assets/images/perfumes/perfume-5.jpg',

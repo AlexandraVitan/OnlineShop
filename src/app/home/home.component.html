@@ -13,20 +13,13 @@
           {{ perfume.name }}
         </div>
         <span class="favorite {{ perfume.favorite ? '' : 'not' }}"> ❤ </span>
-        <div class="stars">
-          <!-- <star-rating
-                [value]="perfume.stars"
-                [totalstars]="5"
-                checkedcolor="red"
-                uncheckedcolor="black"
-                size="20px"
-                [readonly]="true">
-               </star-rating> -->
-        </div>
         <div class="price">
           <span>
             {{ perfume.price | currency }}
           </span>
+        </div>
+        <div class="description">
+          <span>{{ perfume.description }}</span>
         </div>
       </div>
     </a>
