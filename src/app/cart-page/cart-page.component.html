@@ -45,6 +45,7 @@
     <div>
       <div class="perfumes-count">{{ cart.items.length }}</div>
       <div class="total-price">{{ cart.totalPrice | currency }}</div>
+      <button class="clear-button" (click)="clearCart()">Checkout</button>
     </div>
   </div>
 </div>

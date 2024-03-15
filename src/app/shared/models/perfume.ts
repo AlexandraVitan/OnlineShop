@@ -5,6 +5,5 @@ export class Perfume{
     description!: string;
     tags?:string[];
     favorite:boolean = false;
-    stars:number = 0;
     imageUrl!:string;
 }

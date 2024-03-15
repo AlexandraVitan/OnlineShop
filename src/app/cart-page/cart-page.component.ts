@@ -26,6 +26,11 @@ export class CartPageComponent implements OnInit {
     this.setCart();
   }
 
+  clearCart() {
+    this.cartService.clearCart();
+    this.setCart();
+  }
+
   setCart() {
     this.cart = this.cartService.getCart();
   }
