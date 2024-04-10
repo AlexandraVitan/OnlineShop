@@ -58,7 +58,7 @@ export class PerfumeService {
       {
         id: 3,
         name: 'Miss Dior',
-        price: 5,
+        price: 50,
         description:
           'The flavour of the fruit cedes centre stage, and white cedar underscores the woody strength of the tree and its bark.',
         favorite: false,
@@ -68,7 +68,7 @@ export class PerfumeService {
       {
         id: 4,
         name: 'Sahara',
-        price: 2,
+        price: 12,
         description:
           'Within the bottle, absolute and extract of damascena and centifolia roses, contribute their full intensity. ',
         favorite: true,
