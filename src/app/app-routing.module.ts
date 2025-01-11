@@ -6,6 +6,7 @@ import { PerfumePageComponent } from './perfume-page/perfume-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'search/:searchTerm', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'cart-page', component: CartPageComponent },
   { path: 'welcome-page', component: WelcomePageComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent },
 
 ];
 

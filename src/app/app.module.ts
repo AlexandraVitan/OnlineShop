@@ -10,6 +10,7 @@ import { PerfumePageComponent } from './perfume-page/perfume-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { SearchComponent } from './search/search.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { SearchComponent } from './search/search.component';
     NotFoundComponent,
     CartPageComponent,
     SearchComponent,
+    FooterComponent, 
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
