@@ -1,9 +1,38 @@
 <header>
   <div class="container">
-    <a href="#" routerLink="/" class="logo">Perfumes Oriental</a>
+    <div class="wrapper">
+      <a
+        href="#"
+        routerLink="welcome-page"
+        class="logo"
+        style="font-size: 35px; color: purple; font-weight: 700;"
+      >
+        Orientalys</a
+      >
+      <a href="#" routerLink="home" class="logo">Perfumes </a>
+      <a href="#" routerLink="about" class="logo">About </a>
+      <a href="#" routerLink="home" class="logo">Contact </a>
+    </div>
+
     <nav>
       <ul>
-        <li><a href="#" routerLink="/cart-page">Cart</a></li>
+        <li>
+          <a href="#" routerLink="/cart-page">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 .49.598l-1.5 8A.5.5 0 0 1 13 14H4a.5.5 0 0 1-.49-.402L1.61 2H.5a.5.5 0 0 1-.5-.5zM4.415 13h8.17l1.313-7H3.102l1.313 7zM5 16a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm10 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
+              />
+            </svg>
+            Cart
+          </a>
+        </li>
       </ul>
     </nav>
   </div>

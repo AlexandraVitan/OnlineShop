@@ -11,9 +11,10 @@ div {
     width: 20rem;
     background-color: #f1f1f1;
     padding: 1.2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     outline: none;
+    font-family: "Quicksand", sans-serif;
   }
 
   button {
@@ -23,10 +24,12 @@ div {
     font-size: 1rem;
     border-radius: 0 10rem 10rem 0;
     border: none;
-    background-color: #b091ea;
+    background-color: black;
     color: white;
     opacity: 0.8;
     outline: none;
+    font-family: "Quicksand", sans-serif;
+
 
     &:hover {
       opacity: 1;

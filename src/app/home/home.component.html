@@ -1,27 +1,30 @@
-<app-search></app-search>
-<app-tags></app-tags>
-<app-not-found
-  [visible]="!perfumes || perfumes.length <= 0"
-  resetLinkText="Reset Search"
-></app-not-found>
-<ul>
-  <li *ngFor="let perfume of perfumes">
-    <a routerLink="/perfume/{{ perfume.id }}">
-      <img src="{{ perfume.imageUrl }}" alt="" />
-      <div class="content">
-        <div class="name">
-          {{ perfume.name }}
+<div class="wrapper">
+  <app-search></app-search>
+  <app-tags></app-tags>
+  <app-not-found
+    [visible]="!perfumes || perfumes.length <= 0"
+    resetLinkText="Reset Search"
+  ></app-not-found>
+
+  <ul>
+    <li *ngFor="let perfume of perfumes">
+      <a routerLink="/perfume/{{ perfume.id }}">
+        <img src="{{ perfume.imageUrl }}" alt="" />
+        <div class="content">
+          <div class="name">
+            {{ perfume.name }}
+          </div>
+          <span class="favorite {{ perfume.favorite ? '' : 'not' }}"> ❤ </span>
+          <div class="price">
+            <span>
+              {{ perfume.price | currency }}
+            </span>
+          </div>
+          <div class="notes">
+            <span>{{ perfume.notes }}</span>
+          </div>
         </div>
-        <span class="favorite {{ perfume.favorite ? '' : 'not' }}"> ❤ </span>
-        <div class="price">
-          <span>
-            {{ perfume.price | currency }}
-          </span>
-        </div>
-        <div class="description">
-          <span>{{ perfume.description }}</span>
-        </div>
-      </div>
-    </a>
-  </li>
-</ul>
+      </a>
+    </li>
+  </ul>
+</div>
