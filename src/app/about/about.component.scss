@@ -9,7 +9,7 @@
 }
 
 .container {
-  background: url("/assets/images/perfumes/perfume-26.jpg") no-repeat center
+  background: url("/assets/images/perfumes/perfume-27.jpg") no-repeat center
     center/cover;
   width: 100%;
   min-height: 100vh;
@@ -31,11 +31,8 @@
     flex-wrap: wrap;
     margin-bottom: 40px;
 
-    &:nth-of-type(2n) {
-      margin-left: 50rem;
-    }
-    // &:nth-of-type(2n + 1) {
-    //   color: red;
+    // &:nth-of-type(2n) {
+    //   margin-left: 50rem;
     // }
 
     .box {
@@ -46,7 +43,7 @@
       color: var(--white);
       padding: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(20px);
 
       h3 {
         color: var(--white);

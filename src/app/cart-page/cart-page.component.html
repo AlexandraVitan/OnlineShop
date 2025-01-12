@@ -2,9 +2,13 @@
   [visible]="!cart || cart.items.length <= 0"
   notFoundMessage="Cart Page Is Empty!"
   resetLinkText="Go To Homepage"
->
-</app-not-found>
+  resetLinkRoute="/welcome-page"
+></app-not-found>
+
 <div *ngIf="cart && cart.items.length > 0" class="container">
+  <div class="wrapper">
+
+ 
   <ul>
     <li *ngFor="let cartItem of cart.items">
       <div>
@@ -40,10 +44,10 @@
       </div>
     </li>
   </ul>
+  </div>
 
   <div class="checkout">
     <div>
-      <div class="perfumes-count">{{ cart.items.length }}</div>
       <div class="total-price">{{ cart.totalPrice | currency }}</div>
       <button class="clear-button" (click)="clearCart()">Checkout</button>
     </div>

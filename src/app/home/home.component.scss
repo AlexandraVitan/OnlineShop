@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
-    
 
     li {
       a {
@@ -36,17 +35,6 @@
   .content {
     padding: 0.5rem 1rem;
     position: relative;
-
-    .favorite {
-      position: absolute;
-      top: 0.5rem;
-      right: 1rem;
-      font-size: 1.2rem;
-
-      &.not {
-        color: grey;
-      }
-    }
 
     .price {
       color: #414141;

@@ -43,6 +43,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-1.jpg',
         tags: ['Floral', 'Powdery'],
+        brand: 'Lancome',
       },
       {
         id: 2,
@@ -52,6 +53,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-2.jpg',
         tags: ['Powdery'],
+        brand: 'Guerlain',
       },
       {
         id: 3,
@@ -61,6 +63,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-3.jpg',
         tags: ['Floral'],
+        brand: 'Guerlain',
       },
       {
         id: 4,
@@ -70,6 +73,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-4.jpg',
         tags: ['Oriental', 'Gourmand'],
+        brand: 'YSL',
       },
       {
         id: 5,
@@ -79,6 +83,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-5.jpg',
         tags: ['Powdery'],
+        brand: 'Maison Asrar',
       },
       {
         id: 6,
@@ -88,6 +93,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-6.jpg',
         tags: ['Oriental'],
+        brand: 'YSL',
       },
       {
         id: 7,
@@ -97,6 +103,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-7.jpg',
         tags: ['Oriental'],
+        brand: 'YSL',
       },
       {
         id: 8,
@@ -106,6 +113,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-8.jpg',
         tags: ['Oriental', 'Gourmand'],
+        brand: 'Maison Asrar',
       },
       {
         id: 9,
@@ -115,6 +123,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-9.jpg',
         tags: ['Oriental'],
+        brand: 'Replica',
       },
       {
         id: 10,
@@ -124,6 +133,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-10.jpg',
         tags: ['Gourmand'],
+        brand: 'Nylaa',
       },
       {
         id: 11,
@@ -133,6 +143,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-11.jpg',
         tags: ['Floral', 'Woody'],
+        brand: 'YSL',
       },
       {
         id: 12,
@@ -142,6 +153,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-12.jpg',
         tags: ['Oriental', 'Woody'],
+        brand: 'Dior',
       },
       {
         id: 13,
@@ -151,6 +163,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-13.jpg',
         tags: ['Aquatic', 'Floral'],
+        brand: 'Gucci',
       },
       {
         id: 14,
@@ -160,6 +173,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-14.jpg',
         tags: ['Floral', 'Oriental'],
+        brand: 'Pariss',
       },
       {
         id: 15,
@@ -169,6 +183,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-15.jpg',
         tags: ['Gourmand', 'Sweet'],
+        brand: 'Tom Ford',
       },
       {
         id: 16,
@@ -178,6 +193,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-16.jpg',
         tags: ['Citrus', 'Fresh'],
+        brand: 'Tom Ford',
       },
       {
         id: 17,
@@ -187,6 +203,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-17.jpg',
         tags: ['Woody', 'Musky'],
+        brand: 'Guerlain',
       },
       {
         id: 18,
@@ -196,6 +213,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-18.jpg',
         tags: ['Oriental', 'Woody'],
+        brand: 'Guerlain',
       },
       {
         id: 19,
@@ -205,6 +223,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-19.jpg',
         tags: ['Floral', 'Sweet'],
+        brand: 'Guerlain',
       },
       {
         id: 20,
@@ -214,6 +233,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-20.jpg',
         tags: ['Tropical', 'Fresh'],
+        brand: 'Geryan',
       },
       {
         id: 21,
@@ -223,6 +243,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-21.jpg',
         tags: ['Spicy', 'Oriental'],
+        brand: 'Dior',
       },
       {
         id: 22,
@@ -232,6 +253,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-22.jpg',
         tags: ['Woody', 'Fresh'],
+        brand: 'Geryan',
       },
       {
         id: 23,
@@ -241,6 +263,7 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-23.jpg',
         tags: ['Floral', 'Powdery'],
+        brand: 'Lancome',
       },
       {
         id: 24,
@@ -250,6 +273,7 @@ export class PerfumeService {
         favorite: false,
         imageUrl: '/assets/images/perfumes/perfume-24.jpg',
         tags: ['Aquatic', 'Fresh'],
+        brand: 'Lancome',
       },
       {
         id: 25,
@@ -259,8 +283,8 @@ export class PerfumeService {
         favorite: true,
         imageUrl: '/assets/images/perfumes/perfume-25.jpg',
         tags: ['Oriental', 'Resinous'],
+        brand: 'Lancome',
       },
-      
     ];
   }
 }

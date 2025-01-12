@@ -40,7 +40,7 @@ img {
   }
 
   .favorite {
-    color: #41038c;
+    color: #b091ea;
     font-size: 2.5rem;
 
     &.not {
@@ -50,27 +50,39 @@ img {
 
   .price {
     font-size: 1.8rem;
-    margin: 2rem 2rem 2rem 0;
-    color: green;
+    margin: 2rem 2rem 0 0;
+    color: #41038c;
 
     &::before {
       content: "Price: ";
-      color: darkgrey;
+      color: black;
     }
+  }
+  .notes {
+    font-size: 1.5rem;
+    margin: 2rem 2rem 2rem 0;
+    color: #41038c;
+
+    // &::before {
+    //   content: "Price: ";
+    //   color: darkgrey;
+    // }
   }
 
   button {
-    color: white;
-    background: #41038c;
+    color: black;
+    background: #b091ea;
     border: none;
     font-size: 1.2rem;
     padding: 1rem;
     border-radius: 10rem;
     outline: none;
+    font-family: "Quicksand", sans-serif;
 
     &:hover {
-      background-color: #b091ea;
+      background-color: black;
       cursor: pointer;
+      color: white;
     }
   }
 }

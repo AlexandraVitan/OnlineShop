@@ -6,4 +6,5 @@ export class Perfume{
     tags?:string[];
     favorite:boolean = false;
     imageUrl!:string;
+    brand?: string;
 }

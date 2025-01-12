@@ -10,9 +10,8 @@
   <div class="details">
     <div class="header">
       <span class="name">
-        {{ perfume.name }}
+        {{ perfume.name }} - {{perfume.brand}}
       </span>
-      <span class="favorite {{ perfume.favorite ? '' : 'not' }}"> ❤ </span>
     </div>
     <div class="tags">
       <app-tags
@@ -23,6 +22,9 @@
 
     <div class="price">
       <span>{{ perfume.price | currency }}</span>
+    </div>
+    <div class="notes">
+      <span>{{ perfume.notes }}</span>
     </div>
 
     <button (click)="addToCart()">Add To Cart</button>

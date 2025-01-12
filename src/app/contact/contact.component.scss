@@ -1,93 +1,93 @@
 :root {
-    --primary-color: #b091ea;
-    --secondary-color: #f8f9fa;
-    --text-color: #333;
-    --background-blur: rgba(255, 255, 255, 0.2);
-    --white: #ffffff;
+  --primary-color: #b091ea;
+  --secondary-color: #f8f9fa;
+  --text-color: #333;
+  --background-blur: rgba(255, 255, 255, 0.2);
+  --white: #ffffff;
+}
+
+.info-contact-page {
+  background: url("/assets/images/perfumes/perfume-26.jpg") no-repeat center
+    right/cover;
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px;
+  font-family: "Quicksand", sans-serif;
+
+  h2 {
+    color: var(--white);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
   }
-  
-  .info-contact-page {
-    background: url("/assets/images/perfumes/perfume-27.jpg") no-repeat center
-      center/cover;
-    width: 100%;
-    min-height: 100vh;
-    padding: 50px 20px;
-    font-family: "Quicksand", sans-serif;
-  
-    h2 {
+
+  .info-section,
+  .contact-section {
+    background: var(--background-blur);
+    //background-color: #b091ea;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: var(--white);
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
       color: var(--white);
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 30px;
     }
-  
-    .info-section,
-    .contact-section {
-      background: var(--background-blur);
-      padding: 30px;
-      border-radius: 15px;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      margin: 20px auto;
-      max-width: 800px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
       color: var(--white);
-  
-      h3 {
-        font-size: 1.8rem;
-        margin-bottom: 15px;
-        color: var(--white);
-      }
-  
-      p {
-        font-size: 1rem;
-        line-height: 1.6;
-        margin-bottom: 15px;
-        color: var(--white);
-      }
-  
-      ul {
-        margin: 0;
-        padding-left: 20px;
-        list-style: none;
-  
-        li {
-          margin-bottom: 10px;
-          position: relative;
-  
-          &::before {
-            content: "•";
-            color: var(--primary-color);
-            position: absolute;
-            left: -20px;
-            font-size: 1.2rem;
-          }
-  
-          strong {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 5px;
-          }
-  
-          p {
-            margin: 0;
-            font-size: 0.9rem;
-          }
-        }
-      }
     }
-  
-    .contact-section ul {
-      list-style-type: none;
-  
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      list-style: none;
+
       li {
-        font-size: 1rem;
         margin-bottom: 10px;
-  
-        strong {
+        position: relative;
+
+        &::before {
+          content: "•";
           color: var(--primary-color);
+          position: absolute;
+          left: -20px;
+          font-size: 1.2rem;
+        }
+
+        strong {
+          display: block;
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+
+        p {
+          margin: 0;
+          font-size: 0.9rem;
         }
       }
     }
   }
-  
+
+  .contact-section ul {
+    list-style-type: none;
+
+    li {
+      font-size: 1rem;
+      margin-bottom: 10px;
+
+      strong {
+        color: var(--primary-color);
+      }
+    }
+  }
+}

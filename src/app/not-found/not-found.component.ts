@@ -9,7 +9,7 @@ export class NotFoundComponent implements OnInit {
   @Input() visible: boolean = false;
   @Input() notFoundMessage: string = 'Nothing Found!';
   @Input() resetLinkText: string = 'Reset';
-  @Input() resetLinkRoute: string = '/';
+  @Input() resetLinkRoute: string | null = null;
 
   constructor() {}
 

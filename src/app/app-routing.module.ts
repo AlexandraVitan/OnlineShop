@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'welcome-page', component: WelcomePageComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-
+  { path: '', redirectTo: '/welcome-page', pathMatch: 'full' },
 ];
 
 @NgModule({
